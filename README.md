@@ -17,3 +17,13 @@ Base goals:
 * Shadow DOM for rendering (to be decided)
 * Styling with latest standards of CSS3
 
+Steps:
+1. Decide on Mxx patters vs ECB
+1. Create template skeleton
+1. Documentation on each implemented component and pattern
+ * How to implement WebComponent based UI/View components (not a framework)
+ * How to do routing efficiently
+ * How to build/publish the app
+ * How to use CSS3 without the need for SASS/LESS (CSS preprocessors)
+1. Publish the documentation using this template
+1. Some final thoughts on the current state of the technology and performace analysis.
