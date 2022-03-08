@@ -1,0 +1,30 @@
+{
+  "name": "spa-template",
+  "version": "0.1.0",
+  "description": "SPA template",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node webserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natemago/spa-template.git"
+  },
+  "keywords": [
+    "spa",
+    "template",
+    "webcomponents"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natemago/spa-template/issues"
+  },
+  "homepage": "https://github.com/natemago/spa-template#readme",
+  "devDependencies": {
+    "express": "^4.17.3"
+  }
+}
