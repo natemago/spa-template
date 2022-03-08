@@ -27,3 +27,4 @@ Steps:
  * How to use CSS3 without the need for SASS/LESS (CSS preprocessors)
 1. Publish the documentation using this template
 1. Some final thoughts on the current state of the technology and performace analysis.
+1. Browser support matrix for each of the patterns/compnents used in the web app.
