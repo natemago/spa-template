@@ -41,7 +41,7 @@ export class BaseComponent extends HTMLElement {
             this.shadowRoot.appendChild(styleElement);
         }
 
-        if(content instanceof HTMLElement) {
+        if(content instanceof HTMLElement || content instanceof DocumentFragment) {
             this.shadowRoot.appendChild(content);
         } else {
             const tmpDiv = document.createElement('div');
