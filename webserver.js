@@ -11,6 +11,10 @@ const IP_ADDRESS = Object.values(os.networkInterfaces()).flat().filter(item => {
 const webserver = express()
 
 webserver.use('/', express.static(path.join(process.cwd(), './src')))
+webserver.get('*', (request, response) => {
+    response.sendFile(path.join(process.cwd(), './src/index.html'))
+})
+
 
 webserver.listen(PORT, '0.0.0.0', () => {
     console.log(`
